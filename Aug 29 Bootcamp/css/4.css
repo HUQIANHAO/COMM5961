@@ -1,0 +1,16 @@
+h1 {
+color: red;
+text-align: center;
+}
+h2 {
+color: green;
+text-align: center;
+}
+.h3_heading {
+	color:green;
+	text-align:left;
+}
+#special_case {
+	color:orange;
+	text-align:center;
+}
