@@ -1,0 +1,6 @@
+# macOS:
+.DS_Store
+# EsLint:
+.eslintrc.json
+# My own stuff:
+own/
