@@ -2,5 +2,5 @@
 .DS_Store
 # EsLint:
 .eslintrc.json
-# My own stuff:
+# My own testing stuff:
 own/

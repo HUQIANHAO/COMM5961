@@ -13,13 +13,22 @@ const trigger = document.querySelectorAll('a'),
             timeAside.classList.remove('day');
         }
     },
-    msgBox = document.getElementById('msgBox'),
     text1 = document.getElementById('text1'),
     text2 = document.getElementById('text2'),
+    msgBox = document.getElementById('msgBox'),
     add = document.getElementById('add'),
     sub = document.getElementById('sub'),
     multiply = document.getElementById('multi'),
-    devide = document.getElementById('devide');
+    devide = document.getElementById('devide'),
+    setBlankBox = () => {
+        if (text1.value == "") {
+            text1.value = "0";
+        }
+
+        if (text2.value == "") {
+            text2.value = "0";
+        }
+    };
 
 trigger.forEach($a => $a.addEventListener('mouseover', () => {
     target.classList.add('highlight');
@@ -32,17 +41,25 @@ trigger.forEach($a => $a.addEventListener('mouseout', () => {
 setInterval(() => setTime(), 1000);
 
 add.addEventListener('click', () => {
-    msgBox.innerHTML = "<h2>" + text1.value + " + " + text2.value + " = " + (parseInt(text1.value) + parseInt(text2.value)) + "</h2>";
+    setBlankBox();
+    msgBox.innerHTML = text1.value + " + " + text2.value + " = " + (parseFloat(text1.value) + parseFloat(text2.value));
 });
 
 sub.addEventListener('click', () => {
-    msgBox.innerHTML = "<h2>" + text1.value + " - " + text2.value + " = " + (parseInt(text1.value) - parseInt(text2.value)) + "</h2>";
+    setBlankBox();
+    msgBox.innerHTML = text1.value + " - " + text2.value + " = " + (parseFloat(text1.value) - parseFloat(text2.value));
 });
 
 multiply.addEventListener('click', () => {
-    msgBox.innerHTML = "<h2>" + text1.value + " × " + text2.value + " = " + (parseInt(text1.value) * parseInt(text2.value)) + "</h2>";
+    setBlankBox();
+    msgBox.innerHTML = text1.value + " × " + text2.value + " = " + (parseFloat(text1.value) * parseFloat(text2.value));
 });
 
 devide.addEventListener('click', () => {
-    msgBox.innerHTML = "<h2>" + text1.value + " ÷ " + text2.value + " = " + (parseInt(text1.value) / parseInt(text2.value)) + "</h2>";
+    setBlankBox();
+    if (text2.value == "0") {
+        msgBox.innerHTML = "Cannot devide by 0.";
+    } else {
+        msgBox.innerHTML = text1.value + " ÷ " + text2.value + " = " + (parseFloat(text1.value) / parseFloat(text2.value));
+    }
 });

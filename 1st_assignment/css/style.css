@@ -35,21 +35,6 @@ section {
     padding: 10px 20px;
 }
 
-.highlight,
-li :hover {
-    background-color: #CFCF5A;
-}
-
-.night {
-    background-color: #252729;
-    color: #83C2D1;
-}
-
-.day {
-    background-color: #83C2D1;
-    color: #252729;
-}
-
 body {
     width: 960px;
     margin-left: auto;

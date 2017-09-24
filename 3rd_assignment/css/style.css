@@ -50,6 +50,31 @@ li :hover {
     color: #252729;
 }
 
+.inputBox {
+    border-radius: 5px;
+    border: none;
+    text-indent: 3px;
+    height: 30px;
+    width: 100%;
+    font-size: 25px;
+    font-family: menlo, monaco, fixed-width;
+}
+
+.inputLine {
+    font-weight: bold;
+    margin: 3px 0 3px 0;
+    padding: 0 0 10px 0;
+}
+
+.btn {
+    background-color: #11233b;
+    color: #f0f0f0;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: double 3px #bbbbbb;
+}
+
 body {
     width: 960px;
     margin-left: auto;
