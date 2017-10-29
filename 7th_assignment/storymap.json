@@ -1,0 +1,62 @@
+{
+    "storymap": {
+        "language": "en",
+        "map_type": "osm:standard",
+        "map_as_image": false,
+        "slides": [{
+                "type": "overview",
+                "text": {
+                    "headline": "StoryMapJS Demo",
+                    "text": "This is a demo for StoryMapJS, data from HK Gov."
+                },
+                "media": {
+                    "url": "http://cuhk.edu.hk/chinese/images/cuhk_logo_2x.png",
+                    "credit": "CUHK",
+                    "caption": "CUHK Logo for demo"
+                }
+            },
+            {
+                "text": {
+                    "headline": "SKH KINDLY LIGHT CHURCH OR PUI CHEUNG KG(WHOLE DAY)",
+                    "text": "Kindergartens"
+                },
+                "location": {
+                    "lat": 22.345833,
+                    "lon": 114.194722
+                },
+                "media": {
+                    "url": "http://www.skhklcopc.edu.hk/upload/general/files/index_logo3.png",
+                    "caption": "NOS 101-108 & 117-124, G/F,TUNG YUEN HSE CHUK YUEN NORTH ESTATE WONG TAI SIN KOWLOON"
+                }
+            },
+            {
+                "text": {
+                    "headline": "ST STEPHEN'S COLLEGE PREPARATORY SCHOOL",
+                    "text": "Private Primary Schools"
+                },
+                "location": {
+                    "lat": 22.2125,
+                    "lon": 114.215833
+                },
+                "media": {
+                    "url": "http://www.sscps.edu.hk/images/logo.png",
+                    "caption": "BLOCK A BLOCK B BLOCK E AND MINOR STAFF QUARTER 30-32 WONG MA KOK ROAD STANLEY RBL 432 HONG KONG"
+                }
+            },
+            {
+                "text": {
+                    "headline": "RAIMONDI COLLEGE PRIMARY SECTION",
+                    "text": "Private Primary Schools"
+                },
+                "location": {
+                    "lat": 22.273333,
+                    "lon": 114.176389
+                },
+                "media": {
+                    "url": "hhttp://rcps.raimondi.edu.hk/wordpress/wp-content/uploads/2017/04/school-logo-header-640p-1.png",
+                    "caption": "1E SHIU FAI TERRACE STUBBS ROAD WAN CHAI HONG KONG"
+                }
+            }
+        ]
+    }
+}
