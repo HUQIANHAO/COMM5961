@@ -4,5 +4,5 @@ I'm taking the journey map in Yin Ting Li's [report](https://classroom.acehub.hk
 
 ## Links
 All uploaded in this commit.
-[User Personas](./User%20Personas.pdf)
-[Customer Journey Map](./Customer%20Journey%20Map.pdf)
+- [User Personas](./User%20Personas.pdf)
+- [Customer Journey Map](./Customer%20Journey%20Map.pdf)
