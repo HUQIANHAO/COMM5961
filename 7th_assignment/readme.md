@@ -1,4 +1,4 @@
-# Week 7 Assignment
+# Week 8 Assignment
 This assignment is based on JSON page built last week, hope I didn't get the idea wrong.
 ## Aggregation for Counting Nodes
 This view counts ENGLISH CATAGORY.
