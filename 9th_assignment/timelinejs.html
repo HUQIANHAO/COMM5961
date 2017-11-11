@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+        }
+        
+        .header {
+            padding-right: 1rem;
+            padding-left: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: .05rem solid #e5e5e5;
+        }
+        
+        .header h3 {
+            margin-top: 0;
+            margin-bottom: 0;
+            line-height: 3rem;
+        }
+        
+        @media (min-width: 48em) {
+            .container {
+                max-width: 46rem;
+            }
+        }
+        
+        .container-narrow>hr {
+            margin: 2rem 0;
+        }
+        
+        .jumbotron {
+            text-align: center;
+            border-bottom: .05rem solid #e5e5e5;
+        }
+        
+        @media screen and (min-width: 48em) {
+            .header {
+                padding-right: 0;
+                padding-left: 0;
+            }
+            .header {
+                margin-bottom: 2rem;
+            }
+            .jumbotron {
+                border-bottom: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header clearfix">
+            <h3 class="text-muted">TimeLineJS Demo</h3>
+        </div>
+
+        <!-- 1 -->
+        <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+
+        <!-- 2 -->
+        <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+
+        <div class="jumbotron">
+            <div id='timeline-embed' style="width: 100%; height: 600px"></div>
+        </div>
+
+    </div>
+
+    <!-- 3 -->
+    <script type="text/javascript">
+        var timeline_json = $.getJSON('./timelinejs.json');
+        // two arguments: the id of the Timeline container (no '#')
+        // and the JSON object or an instance of TL.TimelineConfig created from
+        // a suitable JSON object
+        window.timeline = new TL.Timeline('timeline-embed', 'timelinejs.json', {
+            is_embed: true
+        });
+    </script>
+
+
+</body>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+</html>

@@ -1,0 +1,309 @@
+{
+    "title": {
+        "background": {
+            "color": "#000000",
+            "opacity": 50,
+            "url": null
+        },
+        "text": {
+            "headline": "TimeLineJS Demo",
+            "text": "Week 10 Assignment, a timeline of Hideo Kojima's works"
+        },
+        "media": {
+            "url": "https://pbs.twimg.com/profile_images/914211724412166144/Bf2Yij9b_400x400.jpg",
+            "thumb": "https://pbs.twimg.com/profile_images/914211724412166144/Bf2Yij9b_400x400.jpg"
+        }
+    },
+    "events": [{
+            "start_date": {
+                "year": "1987",
+                "month": "07",
+                "day": "13",
+                "hour": "",
+                "minute": "",
+                "second": "",
+                "millisecond": "",
+                "format": ""
+            },
+            "media": {
+                "url": "https://upload.wikimedia.org/wikipedia/en/b/bd/Metal_Gear_cover.jpg",
+                "thumb": "https://upload.wikimedia.org/wikipedia/en/b/bd/Metal_Gear_cover.jpg"
+            },
+            "text": {
+                "headline": "Metal Gear",
+                "text": "Metal Gear is an overhead military action-adventure stealth video game originally released in 1987 by Konami for the MSX2 computer in Japan and parts of Europe."
+            },
+            "type": "overview"
+        },
+        {
+            "start_date": {
+                "year": "1988",
+                "month": "11",
+                "day": "26",
+                "hour": "",
+                "minute": "",
+                "second": "",
+                "millisecond": "",
+                "format": ""
+            },
+            "media": {
+                "url": "https://ja.wikipedia.org/wiki/スナッチャー",
+                "thumb": "https://upload.wikimedia.org/wikipedia/en/e/e9/PC88_Snatcher_Front.jpg"
+            },
+            "text": {
+                "headline": "Snatcher",
+                "text": "Snatcher is a cyberpunk adventure game written by Hideo Kojima and produced by Konami. It was originally released in Japan for the PC-8801 and MSX2 computer platforms in 1988."
+            },
+            "type": "overview"
+        },
+        {
+            "start_date": {
+                "year": "1990",
+                "month": "07",
+                "day": "20",
+                "hour": "",
+                "minute": "",
+                "second": "",
+                "millisecond": "",
+                "format": ""
+            },
+            "media": {
+                "caption": "Metal Gear 2 Box Art",
+                "credit": "Yoshiyuki Takani",
+                "url": "https://upload.wikimedia.org/wikipedia/en/1/14/Metal_Gear_2_Boxart.JPG",
+                "thumb": "https://upload.wikimedia.org/wikipedia/en/1/14/Metal_Gear_2_Boxart.JPG"
+            },
+            "text": {
+                "headline": "Metal Gear 2: Solid Snake",
+                "text": "Metal Gear 2: Solid Snake is an overhead action-adventure stealth video game, taglined as a \"Tactical Espionage Game\", that was originally released by Konami in 1990 for the MSX2 computer platform. "
+            },
+            "type": "overview"
+        },
+        {
+            "start_date": {
+                "year": "1994",
+                "month": "07",
+                "day": "29",
+                "hour": "",
+                "minute": "",
+                "second": "",
+                "millisecond": "",
+                "format": ""
+            },
+            "media": {
+                "url": "https://ja.wikipedia.org/wiki/ポリスノーツ",
+                "thumb": "https://upload.wikimedia.org/wikipedia/en/e/e1/PC-98_Policenauts_box.jpg"
+            },
+            "text": {
+                "headline": "Policenauts",
+                "text": "Policenauts is a graphic adventure game with a hard science fiction storyline, written and directed by Hideo Kojima, and published by Konami. It was initially released for the PC-9821 computer platform in 1994, followed by remade versions for the 3DO in 1995, and the PlayStation and Sega Saturn in 1996."
+            }
+        },
+        {
+            "start_date": {
+                "year": "1998",
+                "month": "09",
+                "day": "03",
+                "hour": "",
+                "minute": "",
+                "second": "",
+                "millisecond": "",
+                "format": ""
+            },
+            "media": {
+                "caption": "Metal Gear Solid Part 1 Gameplay",
+                "url": "https://www.youtube.com/watch?v=_zrvEmP41-s"
+            },
+            "text": {
+                "headline": "Metal Gear Solid",
+                "text": "Metal Gear Solid is an action-adventure stealth video game produced by Konami Computer Entertainment Japan and released for the PlayStation in 1998. The game was directed, produced, and co-written by series creator Hideo Kojima, and serves as a sequel to the MSX2 video games Metal Gear and Metal Gear 2: Solid Snake, which Kojima also wrote and directed."
+            }
+        },
+        {
+            "start_date": {
+                "year": "2001",
+                "month": "03",
+                "day": "01",
+                "hour": "",
+                "minute": "",
+                "second": "",
+                "millisecond": "",
+                "format": ""
+            },
+            "media": {
+                "url": "https://ja.wikipedia.org/wiki/ZONE_OF_THE_ENDERS",
+                "thumb": "https://upload.wikimedia.org/wikipedia/en/8/8b/Zone_of_the_Enders_Cover.jpg"
+            },
+            "text": {
+                "headline": "Zone of the Enders",
+                "text": "Zone of the Enders, officially abbreviated as Z.O.E, is a third-person shooter hack and slash video game that was developed and published by Konami for the PlayStation 2."
+            }
+        },
+        {
+            "start_date": {
+                "year": "2001",
+                "month": "11",
+                "day": "14",
+                "hour": "",
+                "minute": "",
+                "second": "",
+                "millisecond": "",
+                "format": ""
+            },
+            "media": {
+                "caption": "Metal Gear Solid 2: Sons of Liberty HD - Gameplay",
+                "url": "https://www.youtube.com/watch?v=QVzTEHTFteY"
+            },
+            "text": {
+                "headline": "Metal Gear Solid 2: Sons of Liberty",
+                "text": "Metal Gear Solid 2: Sons of Liberty is an action-adventure stealth game developed and published by Konami for the PlayStation 2 in 2001. It is the fourth Metal Gear game written and directed by Hideo Kojima and serves as the direct sequel to the original Metal Gear Solid."
+            }
+        },
+        {
+            "start_date": {
+                "year": "2004",
+                "month": "11",
+                "day": "17",
+                "hour": "",
+                "minute": "",
+                "second": "",
+                "millisecond": "",
+                "format": ""
+            },
+            "media": {
+                "caption": "Metal Gear Solid 3 Snake Eater Collection Walkthrough",
+                "url": "https://www.youtube.com/watch?v=sP1J7fKsEUw"
+            },
+            "text": {
+                "headline": "Metal Gear Solid 3: Snake Eater",
+                "text": "Metal Gear Solid 3: Snake Eater[a] is an action-adventure stealth video game produced by Konami Computer Entertainment Japan for the PlayStation 2.[11] It was released in late 2004 in North America and Japan, then in early 2005 in Europe and Australia.  It was the fifth Metal Gear game written and directed by Hideo Kojima and serves as a prequel to the previous installments."
+            }
+        },
+        {
+            "start_date": {
+                "year": "2008",
+                "month": "06",
+                "day": "12",
+                "hour": "",
+                "minute": "",
+                "second": "",
+                "millisecond": "",
+                "format": ""
+            },
+            "media": {
+                "caption": "Metal Gear Solid 4 Walkthrough",
+                "url": "https://www.youtube.com/watch?v=mU6N45G-cCo"
+            },
+            "text": {
+                "headline": "Metal Gear Solid 4: Guns of the Patriots",
+                "text": "Metal Gear Solid 4: Guns of the Patriots[a] is an action-adventure stealth video game developed by Kojima Productions and published by Konami exclusively for the PlayStation 3 console. It is the sixth Metal Gear game directed by Hideo Kojima, and was released worldwide on June 12, 2008."
+            }
+        },
+        {
+            "start_date": {
+                "year": "2010",
+                "month": "04",
+                "day": "29",
+                "hour": "",
+                "minute": "",
+                "second": "",
+                "millisecond": "",
+                "format": ""
+            },
+            "media": {
+                "caption": "Metal Gear Solid: Peace Walker Gameplay Walkthrough",
+                "url": "https://www.youtube.com/watch?v=yiEeX5zChr4"
+            },
+            "text": {
+                "headline": "Metal Gear Solid: Peace Walker",
+                "text": "Metal Gear Solid: Peace Walker is an action-adventure stealth video game developed by Kojima Productions and published by Konami for the PlayStation Portable in 2010."
+            }
+        },
+        {
+            "start_date": {
+                "year": "2014",
+                "month": "03",
+                "day": "18",
+                "hour": "",
+                "minute": "",
+                "second": "",
+                "millisecond": "",
+                "format": ""
+            },
+            "media": {
+                "caption": "Metal Gear Solid 5 Ground Zeroes Gameplay Walkthrough",
+                "url": "https://www.youtube.com/watch?v=v5RLnFhSRpc"
+            },
+            "text": {
+                "headline": "Metal Gear Solid V: Ground Zeroes",
+                "text": "Metal Gear Solid V: Ground Zeroes is an action-adventure stealth video game developed by Kojima Productions and published by Konami. It was released for PlayStation 3, PlayStation 4, Xbox 360 and Xbox One in March 2014, and for Microsoft Windows via Steam in December 2014."
+            }
+        },
+        {
+            "start_date": {
+                "year": "2015",
+                "month": "09",
+                "day": "01",
+                "hour": "",
+                "minute": "",
+                "second": "",
+                "millisecond": "",
+                "format": ""
+            },
+            "media": {
+                "caption": "Metal Gear Solid 5 Phantom Pain Walkthrough Gameplay",
+                "url": "https://www.youtube.com/watch?v=m254RfMCS-Y"
+            },
+            "text": {
+                "headline": "Metal Gear Solid V: The Phantom Pain",
+                "text": "Metal Gear Solid V: The Phantom Pain is an action-adventure stealth video game developed by Kojima Productions and published by Konami for Microsoft Windows, PlayStation 3, PlayStation 4, Xbox 360 and Xbox One. It was released worldwide on September 1, 2015."
+            }
+        },
+        {
+            "start_date": {
+                "year": "2014",
+                "month": "08",
+                "day": "12",
+                "hour": "",
+                "minute": "",
+                "second": "",
+                "millisecond": "",
+                "format": ""
+            },
+            "media": {
+                "caption": "P.T - Demo",
+                "url": "https://www.youtube.com/watch?v=8vtrGF0ZTRc"
+            },
+            "text": {
+                "headline": "P.T.",
+                "text": "P.T. (short for \"playable teaser\") is a first-person psychological horror video game developed by Kojima Productions, under the pseudonym \"7780s Studio\", and published by Konami. The game was directed and designed by Hideo Kojima, in collaboration with film director Guillermo Del Toro."
+            }
+        },
+        {
+            "background": {
+                "color": "#000000",
+                "opacity": 50,
+                "url": null
+            },
+            "start_date": {
+                "year": "2019",
+                "month": "",
+                "day": "",
+                "hour": "",
+                "minute": "",
+                "second": "",
+                "millisecond": "",
+                "format": ""
+            },
+            "media": {
+                "caption": "Hideo Kojima's Tweet about Death Stranding",
+                "url": "https://twitter.com/HIDEO_KOJIMA_EN/status/904949771508396032",
+                "thumb": "https://pbs.twimg.com/media/DBuaek1VwAA1G1m.jpg"
+            },
+            "text": {
+                "headline": "Death Stranding",
+                "text": "Death Stranding is an upcoming action video game developed by Kojima Productions and published by Sony Interactive Entertainment for PlayStation 4. It is the first game by game director Hideo Kojima and his company following the 2015 disbandment of Kojima Productions as a subsidiary of Konami and subsequent reformation as an independent studio."
+            }
+        }
+    ]
+}
